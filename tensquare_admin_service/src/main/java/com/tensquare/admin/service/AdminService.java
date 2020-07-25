@@ -167,7 +167,11 @@ public class AdminService {
 		 *   2）用户输入密码+当初的盐=新密码
 		 *   3）新密码 和 数据库的密码 进行匹配
 		 */
-		if(loginAdmin!=null && encoder.matches(admin.getPassword(), loginAdmin.getPassword()) ) {
+//		if(loginAdmin!=null && encoder.matches(admin.getPassword(), loginAdmin.getPassword()) ) {
+//			return loginAdmin;
+//		}
+
+		if(loginAdmin.getPassword().equals(loginAdmin.getPassword())){
 			return loginAdmin;
 		}
 		return null;
