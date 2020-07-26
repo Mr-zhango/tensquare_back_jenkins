@@ -3,3 +3,14 @@
 */**.iml
 *.iml
 **/*.target
+tensquare_admin_service/src/test/
+tensquare_admin_service/target/
+tensquare_common/src/main/resources/
+tensquare_common/src/test/
+tensquare_common/target/
+tensquare_eureka_server/src/test/
+tensquare_eureka_server/target/
+tensquare_gathering/src/test/
+tensquare_gathering/target/
+tensquare_zuul/src/test/
+tensquare_zuul/target/
