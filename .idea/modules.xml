@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tensquare_admin_service/tensquare_admin_service.iml" filepath="$PROJECT_DIR$/tensquare_admin_service/tensquare_admin_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare_common/tensquare_common.iml" filepath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare_eureka_server/tensquare_eureka_server.iml" filepath="$PROJECT_DIR$/tensquare_eureka_server/tensquare_eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" filepath="$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare_parent.iml" filepath="$PROJECT_DIR$/tensquare_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare_zuul/tensquare_zuul.iml" filepath="$PROJECT_DIR$/tensquare_zuul/tensquare_zuul.iml" />
+    </modules>
+  </component>
+</project>

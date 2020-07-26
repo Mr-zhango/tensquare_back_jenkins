@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: tensquare-zuul
+  profiles:
+    active: dev
