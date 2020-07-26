@@ -5,7 +5,7 @@ def git_url = "https://github.com/Mr-zhango/tensquare_back_jenkins.git"
 //镜像的版本号
 def tag = "latest"
 //Harbor的url地址
-def harbor_url = "registry.cn-hangzhou.aliyuncs.com/docker_rep_zhangyang/docker_rep_zhangyang"
+def harbor_url = "192.168.1.129:85"
 //镜像库项目名称
 def harbor_project = "tensquare"
 //Harbor的登录凭证ID
@@ -63,16 +63,16 @@ node {
                  sh "docker tag ${imageName} ${harbor_url}/${harbor_project}/${imageName}"
 
                 //把镜像推送到Harbor
-                //withCredentials([usernamePassword(credentialsId: "${harbor_auth}", passwordVariable: 'password', usernameVariable: 'username')]) {
+                withCredentials([usernamePassword(credentialsId: "${harbor_auth}", passwordVariable: 'password', usernameVariable: 'username')]) {
 
                     //登录到Harbor
-                    //sh "docker login -u ${username} -p ${password} ${harbor_url}"
+                    sh "docker login -u ${username} -p ${password} ${harbor_url}"
 
                     //镜像上传
                     sh "docker push ${harbor_url}/${harbor_project}/${imageName}"
 
                     sh "echo 镜像上传成功"
-                //}
+                }
 
                 //遍历所有服务器，分别部署
                 for(int j=0;j<selectedServers.length;j++){
