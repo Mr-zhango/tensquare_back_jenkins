@@ -4,4 +4,4 @@ spring:
   application:
     name: tensquare-gathering #指定服务名
   profiles:
-    active: dev
+    active: pro
