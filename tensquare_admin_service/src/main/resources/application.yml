@@ -4,4 +4,4 @@ spring:
   application:
     name: tensquare-admin-service #指定服务名
   profiles:
-    active: dev
+    active: pro
