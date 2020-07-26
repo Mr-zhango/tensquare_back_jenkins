@@ -1,5 +1,5 @@
 //git凭证ID
-def git_auth = "5f62fc97-9b15-43d1-b03e-9faf75905bbb"
+def git_auth = "56f2154a-ce9a-40f6-b8cd-3ffceece1982"
 //git的url地址
 def git_url = "https://github.com/Mr-zhango/tensquare_back_jenkins.git"
 //镜像的版本号
