@@ -1,7 +1,7 @@
 //git凭证ID
-def git_auth = "8e55c217-8b05-4ed9-8db4-e94b51226021"
+def git_auth = "5f62fc97-9b15-43d1-b03e-9faf75905bbb"
 //git的url地址
-def git_url = "git@github.com:Mr-zhango/tensquare_back_jenkins.git"
+def git_url = "https://github.com/Mr-zhango/tensquare_back_jenkins.git"
 //镜像的版本号
 def tag = "latest"
 //Harbor的url地址
